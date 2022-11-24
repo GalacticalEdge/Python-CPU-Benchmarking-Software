@@ -14,6 +14,7 @@ This program can be used to benchmark single-threaded performance. I have tested
 * Multi-threaded benchmarks
 * Improvements to the benchmarking
 * Better intractability with the program
+
 Do not expect these to come any time soon, since I am still a Python beginner who only knows the basics.
 
 I will welcome any contributions to this project with open arms. If you happen to be seeing this, don't hesitate to look and help improve this software!
