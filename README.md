@@ -28,7 +28,7 @@ I do not know about MacOS, but I believe versions after MacOS 11 do not come wit
 
 If you use Linux (which this software was extensively tested on), download Python from your distro's repositories if you don't have it already installed. Some distros (like PopOS and Raspberry Pi OS) come with it preinstalled however.
 
-For any other operating systems, I cannot help.
+After you've installed Python, download the code from this repository. After it's done, open the terminal application on your computer (On Windows, it's Command Prompt. On MacOS, it's Terminal. On Linux, it will vary based on distro) and type "python3 /path/to/PyCPUbench/". Let it run and see the results! (Please note it may take awhile depending on how fast your computer's single-threaded performance is)
 
 # License
 The license can be found in the project's code. Please refer to it if you want to fork this project or borrow any code.
