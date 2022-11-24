@@ -26,7 +26,7 @@ If you use Windows, download Python 3.10 from their [official website](https://w
 
 I do not know about MacOS, but I believe versions after MacOS 11 do not come with Python preinstalled. So again, go to Python's [official website](https://www.python.org/) to download Python 3.10.
 
-If you use Linux (which this software was extensively tested on), download Python from your distro's repositories if you don't have it already installed. Some distros (like PopOS and Raspberry Pi OS) come with it however.
+If you use Linux (which this software was extensively tested on), download Python from your distro's repositories if you don't have it already installed. Some distros (like PopOS and Raspberry Pi OS) come with it preinstalled however.
 
 For any other operating systems, I cannot help.
 
