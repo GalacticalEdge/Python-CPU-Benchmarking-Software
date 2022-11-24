@@ -11,7 +11,7 @@ for i in range(10):
     time.sleep(1)
 
 start = datetime.datetime.now()
-for a in range(10000000000):
+for a in range(1000000000):
     if a%10 == 0:
         if a%8 == 0:
             if a%6 == 0:
