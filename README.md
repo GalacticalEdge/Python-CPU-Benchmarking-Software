@@ -7,12 +7,12 @@ A Python program that benchmarks the performance of the computer it runs on.
 This program can be used to benchmark single-threaded performance. I, along with the help of friends, have tested this program on these CPUs:
 | CPU  | Time |
 | ------------- | ------------- |
-| AMD Ryzen 5 5600X (Linux) | 11.28 Minutes  |
-| Intel Core i7 9750H (Windows) | 42.41 Minutes |
-| Intel Core i5 1155G7 (Linux) | 19.02 Minutes  |
+| AMD Ryzen 5 5600X (AVX-256, Linux) | 11.28 Minutes  |
+| Intel Core i7 9750H (AVX2, Windows) | 42.41 Minutes |
+| Intel Core i5 1155G7 (AVX-512, Linux) | 19.02 Minutes  |
 | Raspberry Pi 4 Model B 4GB (Linux) | 59.48 Minutes |
 
-For some odd reason, Windows is performing worse than Linux in most benchmarks ran with this program. I am not sure exactly why, but so far, it might be because of the better efficiency of Linux.
+One of the best things of Python is that it often takes advantage of instruction set extensions on processors that support them, so this program can take advantage of them and show just how powerful your computer is.
 # What do I plan to add over time?
 * Multi-threaded benchmarks
 * Improvements to the benchmarking
@@ -31,7 +31,7 @@ I do not know about MacOS, but I believe versions after MacOS 11 do not come wit
 
 If you use Linux (which this software was extensively tested on), download Python from your distro's repositories if you don't have it already installed. Some distros (like PopOS and Raspberry Pi OS) come with it preinstalled however.
 
-After you've installed Python, download the code from this repository. After it's done, open the terminal application on your computer (On Windows, it's Command Prompt. On MacOS, it's Terminal. On Linux, it will vary based on distro) and type "python3 /path/to/PyCPUbench/". Let it run and see the results! (Please note it may take awhile depending on how fast your computer's single-threaded performance is)
+After you've installed Python, download the code from this repository. After it's done, extract the files and open the terminal application on your computer (On Windows, it's Command Prompt. On MacOS, it's Terminal. On Linux, it will vary based on distro) and type "python3 (Path to PyCPUbench.py goes here)". Let it run and see the results! (Please note it may take awhile depending on how fast your computer's single-threaded performance is)
 
 # License
 The license can be found in the project's code. Please refer to it if you want to fork this project or borrow any code.
