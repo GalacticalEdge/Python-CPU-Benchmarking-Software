@@ -20,7 +20,7 @@ for a in range(5000000000):
                         print(a)
 
 end = datetime.datetime.now()
-print(f"Benchmark started at:")
+print("Benchmark started at:")
 print(start.strftime("%X"))
-print(f"Benchmark ended at:")
+print("Benchmark ended at:")
 print(end.strftime("%X"))
