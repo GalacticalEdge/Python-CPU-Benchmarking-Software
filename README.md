@@ -4,13 +4,14 @@
 A Python program that benchmarks the performance of the computer it runs on.
 
 # How useful is this?
-This program can be used to benchmark single-threaded performance. I have tested this program on these CPUs:
+This program can be used to benchmark single-threaded performance. I, along with the help of friends, have tested this program on these CPUs:
 | CPU  | Time |
 | ------------- | ------------- |
 | AMD Ryzen 5 5600X (Linux) | 11.28 Minutes  |
 | Intel Core i7 9750H (Windows) | 42.41 Minutes |
 | Intel Core i5 1155G7 (Linux) | 19.02 Minutes  |
 | Raspberry Pi 4 Model B 4GB (Linux) | 59.48 Minutes |
+For some odd reason, Windows is performing worse than Linux in most benchmarks ran with this program. I am not sure exactly why, but so far, it might be because of the better efficiency of Linux.
 # What do I plan to add over time?
 * Multi-threaded benchmarks
 * Improvements to the benchmarking
