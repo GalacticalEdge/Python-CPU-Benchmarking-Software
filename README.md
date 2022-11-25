@@ -1,6 +1,6 @@
 # NOTE: This is pre-development software and I plan to add more to this over time.
 
-# Python-CPU-Benchmarking-Software
+# Python CPU Benchmarking Software
 A Python program that benchmarks the performance of the computer it runs on.
 
 # How useful is this?
