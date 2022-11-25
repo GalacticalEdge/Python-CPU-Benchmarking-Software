@@ -25,6 +25,8 @@ I will welcome any contributions to this project with open arms. If you happen t
 # How do I run this software?
 It's easy, but it will depend on what computer you have. I have only tested this software with Python 3.10, so I won't be able to help if this doesn't work in any other version.
 
+The instructions below are for if you do not have Python already installed. If you have Python installed, then you can skip to the last paragraph of this section.
+
 If you use Windows, download Python 3.10 from their [official website](https://www.python.org/) or from the Microsoft Store.
 
 I do not know about MacOS, but I believe versions after MacOS 11 do not come with Python preinstalled. So again, go to Python's [official website](https://www.python.org/) to download Python 3.10.
