@@ -35,7 +35,7 @@ If you use Linux (which this software was extensively tested on), download Pytho
 
 After you've installed Python, download the code from this repository. After it's done, extract the files and open the terminal application on your computer (On Windows, it's Command Prompt. On MacOS, it's Terminal. On Linux, it will vary based on distro) and type "python3 (Path to PyCPUbench.py goes here)". Let it run and see the results!
 
-Note that it will do various math calculations for numbers up to 50,000,000. This may take awhile depending how fast your system is. I recommend closing everything running in the background to minimize CPU and memory load.
+Note that it will do various math calculations for numbers up to 5,000,000. This may take awhile depending how fast your system is. I recommend closing everything running in the background to minimize CPU and memory load.
 
 # License
 The license can be found in the project's code. Please refer to it if you want to fork this project or borrow any code.
