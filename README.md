@@ -9,6 +9,7 @@ This program can be used to benchmark single-threaded performance. I, along with
 | ------------- | ------------- |
 | AMD Ryzen 5 5600X (AVX-256, Linux) | 5.15 Minutes  |
 | Intel Core i7 9750H (AVX2, Windows) | 42.41 Minutes |
+| Intel Core i5 9400F (AVX2, Windows) | 43.05 Minutes |
 | Intel Core i5 1155G7 (AVX-512, Linux) | 8.14 Minutes  |
 | Raspberry Pi 4 Model B 4GB (Linux) | 59.48 Minutes |
 
