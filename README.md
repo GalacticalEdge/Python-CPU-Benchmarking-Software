@@ -7,7 +7,7 @@ A Python program that benchmarks the performance of the computer it runs on.
 This program can be used to benchmark single-threaded performance. I, along with the help of friends, have tested this program on these CPUs:
 | CPU  | Time |
 | ------------- | ------------- |
-| AMD Ryzen 5 5600X (AVX-256, Linux) | 5.15 Minutes  |
+| AMD Ryzen 5 5600X (AVX2, Linux) | 5.15 Minutes  |
 |  Intel Core i5 1155G7 (AVX-512, Linux) | 8.14 Minutes |
 | Intel Core i7 9750H (AVX2, Windows) | 42.41 Minutes |
 | Intel Core i5 9400F (AVX2, Windows) | 43.05 Minutes ||
