@@ -21,9 +21,9 @@ for a in range(5000000000):
 
 end = datetime.datetime.now()
 results = end - start
-print("Benchmark started at:")
+print("Benchmark started at: ", end="")
 print(start.strftime("%X"))
-print("Benchmark ended at:")
+print("Benchmark ended at: ", end="")
 print(end.strftime("%X"))
-print("Benchmark took:")
+print("Benchmark took: ", end="")
 print(results)
