@@ -7,11 +7,12 @@ A Python program that benchmarks the performance of the computer it runs on.
 This program can be used to benchmark single-threaded performance. I, along with the help of friends, have tested this program on these CPUs:
 | CPU  | Time |
 | ------------- | ------------- |
+| Apple M1 (Mac Mini, MacOS Big Sur) | 4:46 Minutes |
 | AMD Ryzen 5 5600X (AVX2, Linux) | 5.15 Minutes  |
-|  Intel Core i5 1155G7 (AVX-512, Linux) | 8.14 Minutes |
-| Intel Core i7 9750H (AVX2, Windows) | 42.41 Minutes |
-| Intel Core i5 9400F (AVX2, Windows) | 43.05 Minutes ||
-| Raspberry Pi 4 Model B 4GB (Linux) | 59.48 Minutes |
+|  Intel Core i5 1155G7 (AVX-512, Linux) | 8:14 Minutes |
+| Intel Core i7 9750H (AVX2, Windows) | 42:41 Minutes |
+| Intel Core i5 9400F (AVX2, Windows) | 43:05 Minutes ||
+| Raspberry Pi 4 Model B 4GB (Linux) | 59:48 Minutes |
 
 One of the best things of Python is that it often takes advantage of instruction set extensions (like AVX) on processors that support them, so this program can take advantage of them and show just how powerful your computer is.
 # What do I plan to add over time?
