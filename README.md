@@ -4,7 +4,7 @@
 A Python program that benchmarks the performance of the computer it runs on.
 
 # How useful is this?
-This program can be used to benchmark single-threaded performance. I, along with the help of friends, have tested this program on these CPUs:
+This program can be used to benchmark single-threaded performance. I along with the help of others have tested this program on these CPUs:
 | CPU  | Time |
 | ------------- | ------------- |
 | Apple M1 (Mac Mini) | 4:46 Minutes |
