@@ -8,7 +8,7 @@ This program can be used to benchmark single-threaded performance. I, along with
 | CPU  | Time |
 | ------------- | ------------- |
 | Apple M1 (Mac Mini) | 4:46 Minutes |
-| AMD Ryzen 5 5600X (AVX2, Linux) | 5.15 Minutes  |
+| AMD Ryzen 5 5600X (AVX2, Linux) | 5:15 Minutes  |
 |  Intel Core i5 1155G7 (AVX-512, Linux) | 8:14 Minutes |
 | Intel Core i7 9750H (AVX2, Windows) | 42:41 Minutes |
 | Intel Core i5 9400F (AVX2, Windows) | 43:05 Minutes ||
