@@ -13,6 +13,7 @@ This program can be used to benchmark single-threaded performance. I along with 
 | Intel Core i7 9750H (AVX2, Windows) | 42:41 Minutes |
 | Intel Core i5 9400F (AVX2, Windows) | 43:05 Minutes ||
 | Raspberry Pi 4 Model B 4GB (Linux) | 59:48 Minutes |
+| Intel Core i5 6300U (AVX2, Windows) | 1:24:27 Minutes |
 
 One of the best things of Python is that it often takes advantage of instruction set extensions (like AVX) on processors that support them, so this program can take advantage of them and show just how powerful your computer is.
 # What do I plan to add over time?
