@@ -7,21 +7,17 @@ if device_CPU == "":
     device_CPU = "Unknown processor"
 
 device_OS = deviceinfo.system()
-if device_OS == "Windows":
-    device_OS = deviceinfo.win32_ver()
-elif device_OS == "Darwin":
-    deviceOS = deviceinfo.mac_ver()
-    if device_OS == "":
-        device_OS = "Unknown MacOS version"
+if device_OS == "Darwin":
+    device_OS = "MacOS"
 elif device_OS == "Linux":
     try:
         device_OS = deviceinfo.freedesktop_os_release()
         device_OS = device_OS["NAME"]
     except:
-        device_OS = "Unknown Linux distribution"
+        device_OS = "Unknown Linux distribution. Please make sure /etc/os-release or /usr/lib/os-release can be read"
+elif device_OS == "":
+    print("Unknown operating system")
 
-print(device_CPU)
-print(device_OS)
 print("Welcome to the Python CPU Benchmark Program! In this program, your computer's single-threaded performance will be tested by doing various math calculations.")
 
 time.sleep(5)
@@ -41,7 +37,14 @@ for a in range(5000000000):
                         print(a)
 
 end = datetime.datetime.now()
-print(f"Benchmark started at:")
+results = end - start
+print("Benchmark started at: ", end="")
 print(start.strftime("%X"))
-print(f"Benchmark ended at:")
+print("Benchmark ended at: ", end="")
 print(end.strftime("%X"))
+print("Benchmark took: ", end="")
+print(results)
+print("System CPU: ", end="")
+print(device_CPU)
+print("Operating System: ", end="")
+print(device_OS)
