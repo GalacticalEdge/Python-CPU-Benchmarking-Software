@@ -16,7 +16,7 @@ elif device_OS == "Linux":
     except:
         device_OS = "Unknown Linux distribution. Please make sure /etc/os-release or /usr/lib/os-release can be read"
 elif device_OS == "":
-    print("Unknown operating system")
+    device_OS = "Unknown operating system"
 
 print("Welcome to the Python CPU Benchmark Program! In this program, your computer's single-threaded performance will be tested by doing various math calculations.")
 
