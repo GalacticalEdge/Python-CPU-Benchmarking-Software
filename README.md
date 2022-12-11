@@ -34,11 +34,11 @@ If you use Windows, download Python 3.10 from their [official website](https://w
 
 I do not know about MacOS, but I believe versions after MacOS 11 do not come with Python preinstalled. So again, go to Python's [official website](https://www.python.org/) to download Python 3.10.
 
-If you use Linux (which this software was extensively tested on), download Python from your distro's repositories if you don't have it already installed. Some distros (like PopOS and Raspberry Pi OS) come with it preinstalled however.
+If you use Linux (which this software was extensively tested on), download Python from your distro's repositories if you don't have it already installed. Some distros (like Ubuntu) come with it preinstalled however. If your distro comes preinstalled with Python, it's recommended to not change or modify your operating system's built-in Python as that can break your operating system.
 
 After you've installed Python, download the code from this repository. After it's done, extract the files and open the terminal application on your computer (On Windows, it's Command Prompt. On MacOS, it's Terminal. On Linux, it will vary based on distro) and type "python3 (Path to PyCPUbench.py goes here)". Let it run and see the results!
 
-Note that it will do various math calculations for numbers up to 5,000,000. This may take awhile depending how fast your system is. I recommend closing everything running in the background to minimize CPU and memory load.
+Note that it will take awhile depending how fast your system is. I recommend closing everything running in the background to minimize CPU and memory load.
 
 # License
 The license can be found in the project's code. Please refer to it if you want to fork this project or borrow any code.
