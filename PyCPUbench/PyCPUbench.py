@@ -4,7 +4,7 @@ import platform as deviceinfo
 import threading
 import _thread
 
-# NOTE: The threading and _thread modules are stubs. These will be used to add multi-threaded benchmarks in the future
+# Note: The threading and _thread modules are stubs. These will be used to add multi-threaded benchmarks in the future
 
 device_CPU = deviceinfo.processor()
 if device_CPU == "":
